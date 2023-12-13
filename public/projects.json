@@ -3,16 +3,16 @@
 
 [
     {
-      "name": "project1",
-      "live": "https://app.herokuapp.com/whatever",
-      "git": "http://www.github.com/username/reponame",
-      "image": "http://www.imgur.com/pictureofproject.png"
+      "name": "Project 1",
+      "live": "https://sadiefiss.github.io/Sadies-Project-1/",
+      "git": "https://github.com/sadiefiss/Sadies-Project-1",
+      "image": "/images/proj1.png"
     },
     {
-      "name": "project2",
-      "live": "https://app.netlify.app/whatever",
+      "name": "Project 2",
+      "live": "https://pet-partners-1c56ce19ad35.herokuapp.com/",
       "git": "http://www.github.com/username/reponame",
-      "image": "http://www.imgur.com/pictureofproject.png"
+      "image": "/images/petpart.png"
     }
   ]
   

@@ -1,5 +1,5 @@
 function Footer() {
-    return <h1>Footer</h1>;
+    return <p>copyright 2023</p>;
   }
   
   export default Footer;

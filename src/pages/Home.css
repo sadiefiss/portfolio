@@ -1,0 +1,11 @@
+/* Home.css */
+
+#homefront { }
+
+#infotxt {
+    font-family: fantasy, monospace;
+ 
+    font-size: 40px; 
+    font-weight: 500;
+    margin-top: 300px;
+}

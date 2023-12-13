@@ -1,3 +1,4 @@
+import "./About.css"
 import { useState, useEffect } from "react";
 
 function About() {
@@ -8,10 +9,11 @@ function About() {
   const getAboutData = async () => {
 
 		// make api call and get response
-    const response = await fetch("./about.json");
-
+    const response = await fetch("/about.json");
+console.log(response)
 		// turn response into javascript object
     const data = await response.json();
+    console.log(data)
 
 		// set the about state to the data
     setAbout(data);
@@ -22,10 +24,11 @@ function About() {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
-    <div>
-      <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
-      <p>{about.bio}</p>
+    <div> 
+      <img src={about.headshot} alt="picture of sadie" />
+      <h2 id="name">{about.name}</h2>
+      <h3 id= "email">{about.email}</h3>
+      <p id = "bio">{about.bio}</p>
     </div>
   );
 

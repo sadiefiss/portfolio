@@ -26,9 +26,11 @@ function Projects() {
     return projects.map((project) => (
       <div key= {project.name}>
         <h1>{project.name}</h1>
-        <img src={project.image} />
-        <a href={project.git}>
-          <button>Github</button>
+        <img src={project.image} alt="project 1"/>
+        
+        
+        <a href={`${project.git}`} target="_blank" rel="noopener noreferrer">
+        <button>Github</button>
         </a>
         <a href={project.live}>
           <button>live site</button>

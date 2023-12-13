@@ -1,5 +1,10 @@
+import './Home.css'
 function Home() {
-    return <h1>Home</h1>;
-  }
-  
+    return (
+      <div id ="infotxt">
+         <h1>Sadie Marie Fissiner </h1>
+      <h2 id="h2">Full-Stack Developer</h2>
+      </div>
+    )
+    }
   export default Home;
