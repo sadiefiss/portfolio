@@ -28,7 +28,15 @@ console.log(response)
       <img src={about.headshot} alt="picture of sadie" />
       <h2 id="name">{about.name}</h2>
       <h3 id= "email">{about.email}</h3>
-      <p id = "bio">{about.bio}</p>
+      <p id = "bio">{about.bio}</p> 
+      
+
+        
+      <a href={`${about.resume}`} target="_blank" rel="noopener noreferrer">
+        <button>resume</button>
+        </a>
+        {/* <a id="email"href="mailto:your.sadiefiss@gmail.com">Contact me via Gmail</a>
+<button>Contact Me via Email!</button> */}
     </div>
   );
 
