@@ -12,7 +12,7 @@
     {
       "name": "Project 2",
       "live": "https://pet-partners-1c56ce19ad35.herokuapp.com/",
-      "git": "http://www.github.com/username/reponame",
+      "git": "https://github.com/sadiefiss/Project-2",
       "image": "/images/petpart.png",
       "description": "The Pet Partner application offers a staff/admin model as well as an end-user model. The end-user Pet Partner model caters to short-term pet fosters by matching their preferred pet characteristcs against a growing inventory of available pets to provide them with the perfect match, while the staff/admin model allows for various adminstrative functions such as adding and removing pets from inventory as well as adding user profiles."
     }
