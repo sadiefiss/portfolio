@@ -34,7 +34,8 @@ function Projects() {
         </a>
         <a href={project.live}>
           <button>live site</button>
-        </a>
+        </a> 
+        <h2>{project.description}</h2>
       </div>
     ));
   };
